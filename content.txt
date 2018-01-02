@@ -12,3 +12,35 @@ volunteer.html
 happy-endings.html
 events.html
 news.html
+
+
+Colour: #601893
+Home:
+
+Banner:
+Change a life. Foster, Adopt, Donate or Volunteer
+
+Links:
+donate
+adopt
+Foster
+
+Preview of About:
+Chatham Kent Animal Rescue, (aka CK Animal Rescue), Charitable No. 852128701 RR0001, was formed in October 2010 and our office is located in southwestern Ontario, Canada.  We are a registered non profit RESCUE, 100% volunteer based organization with dedicated animal lovers who volunteer their time, love, commitment and open their homes to care for our rescued dogs (& cats).  Our volunteers and foster families are located within southwestern Ontario (Sarnia, London, Chatham Kent, Blenheim, Leamington, Ridgetown, Windsor and surrounding areas).
+
+We are NOT a shelter and we do NOT receive any government funding.  Our rescue depends on fundraising events, donations and adoption fees to pay our operating costs and vetting for all our dogs, cats and small animals.
+
+Dogs who come to our rescue were scheduled to be euthanized from high kill shelters, advertised as “free to good home”, ex breeder dogs, from hoarding situations as well as  local owner surrenders. Many of our volunteers work full time, attend school or retired, every one works many extra hours for the love of the animals in our rescue. Our ultimate goal is to find permanent safe, loving homes through our foster/adoption program.
+
+Donations are greatly NEEDED for the unwanted animals who enter our foster program.  YOU Can Make a Difference for One Life!
+
+Footer:
+CONTACT
+
+270 Inshes Ave.Chatham Kent, ON N7M 2Z7
+
+Office: (519) 354 5000
+
+info@ckanimalrescue.com
+
+www.ckanimalrescue.com

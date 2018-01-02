@@ -1,0 +1,14 @@
+Actual Site: https://ckanimalrescue.com
+
+Working pages:
+index.html
+adopt.html
+contact.html
+
+other pages:
+donate.html
+foster.html
+volunteer.html
+happy-endings.html
+events.html
+news.html

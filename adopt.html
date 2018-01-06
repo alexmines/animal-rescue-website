@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Animal Rescue</title>
+  <title>Animal Rescue | Adopt</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -13,27 +13,195 @@
 <body>
   <header>
     <div class="grid">
-    <div class="unit gutter pad-t-1-4 logo xs-1-3 s-1-3 m-1-3 l-1-3">
-      <div class="unit push">
-        <i class="gutter yotta bold not-italic">CK</i>
-        <h1 class="kilo push-none">Animal Rescue</h1>
+      <div class="unit gutter pad-t-1-4 logo xs-1-3 s-1-3 m-1-3 l-1-3">
+        <div class="unit push">
+          <i class="gutter yotta bold not-italic">CK</i>
+          <h1 class="kilo push-none">Animal Rescue</h1>
+        </div>
       </div>
-    </div>
-
-    <nav class="unit xs-2-3 s-2-3 m-2-3 l-2-3 hover nav-list">
-      <ul class="mega list-group-inline push-1-2">
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="index.html">Home</a></li>
-        <li class="current inline-block gutter-1-8 push-r-1-4"><a href="adopt.html">Adopt</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="contact.html">Contact</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Donate</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Foster</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Volunteer</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Events</a></li>
-        <li class="inline-block gutter-1-8 push-r-1-4"><a href="">News</a></li>
-      </ul>
-    </nav>
+      <nav class="unit xs-2-3 s-2-3 m-2-3 l-2-3 hover nav-list">
+        <ul class="mega list-group-inline push-1-2">
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="index.html">Home</a></li>
+          <li class="current inline-block gutter-1-8 push-r-1-4"><a href="adopt.html">Adopt</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="rescues.html">Rescues</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Donate</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Foster</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Volunteer</a></li>
+        </ul>
+      </nav>
   </header>
-</div>
+
+  <div class="grid pad-b">
+    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+      <div class="embed embed-1by1">
+        <img class="embed-item" src="images/feature-two.jpg" alt="">
+      </div>
+    </figure>
+    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+      <div class="embed embed-1by1">
+        <img class="embed-item" src="images/feature-one.jpg" alt="">
+      </div>
+    </figure>
+    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+      <div class="embed embed-1by1">
+        <img class="embed-item" src="images/feature-three.jpg" alt="">
+      </div>
+    </figure>
+    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+      <div class="embed embed-1by1">
+        <img class="embed-item" src="images/feature-four.jpg" alt="">
+      </div>
+    </figure>
+  </div>
+
+  <section>
+    <form class="wrapper">
+    <fieldset class="pad-t pad-b-1-2">
+      <legend class="pad-t-2 giga bold gutter-1-2">Personal details</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 pad-t-1-8 gutter-1-2 pad-b-1-2">
+          <label for="name" class="kilo">First Name</label>
+          <input id="name" name="name">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 pad-b-1-2">
+          <label for="call" class="kilo">Last Name</label>
+          <input id="call" name="call">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="date" class="kilo">Date of birth</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="email" class="kilo">Email Address<span class="opt italic"> (required)</span></label>
+          <input id="email" type="email">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+          <label for="tel" class="kilo">Phone number<span class="opt italic"> (optional)</span></label>
+          <input id="tel" type="tel">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="address" class="kilo">Street adress</label>
+          <input id="address" name="address">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="city" class="kilo gutter-1-2">City</label>
+          <input id="city" name="city">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="prov" class="kilo ">Province</label>
+          <select id="prov" name="prov">
+            <option>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+          <label for="postal" class="kilo gutter-1-2">Postal code</label>
+          <input id="postal" name="postal">
+        </div>
+      </div>
+    </fieldset>
+     <hr>
+
+     <fieldset class="grid island-1-2">
+       <legend class="unit pad-t-2 giga">Check which interests you</legend>
+       <div class="grid">
+         <div class="unit m-1-2">
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="shovels" name="experience" type="checkbox">
+             <label for="shovels">Small Dog</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="hand-held" name="experience" type="checkbox">
+             <label for="hand-held">Big Dog</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="write" name="experience" type="checkbox">
+             <label for="write">Old Dog</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="photography" name="experience" type="checkbox">
+             <label for="photography">Young Dog</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="trail" name="experience" type="checkbox">
+             <label for="trail">Old Cat</label>
+           </div>
+         </div>
+         <div class="unit m-1-2">
+           <div class="unit kilo push-1-8 pad-t-1-4">
+             <input id="bush" name="experience" type="checkbox">
+             <label for="bush">Young Cat</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="atv" name="experience" type="checkbox">
+             <label for="atv">Healthy Pet</label>
+           </div>
+           <div class="kilo push-1-8 pad-t-1-4">
+             <input id="plant-id" name="experience" type="checkbox">
+             <label for="plant-id">Medical Needs</label>
+           </div>
+         </div>
+       </div>
+     </fieldset>
+     <hr>
+     <fieldset class="grid island-1-2">
+       <legend class="unit pad-t-2 giga">Do you smoke?</legend>
+       <div class="unit">
+         <input id="yes-license" name="license" type="radio">
+         <label for="yes-license">Yes</label>
+         <input id="no-license" name="license" type="radio">
+         <label for="no-license">No</label>
+       </div>
+     </fieldset>
+     <fieldset class="grid island-1-2">
+       <legend class="unit pad-t-2 giga">Do you have a backyard?</legend>
+       <div class="unit">
+         <input id="yes-truck" name="truck" type="radio">
+         <label for="yes-truck">Yes</label>
+         <input id="no-truck" name="truck" type="radio">
+         <label for="no-truck">No</label>
+       </div>
+     </fieldset>
+     <fieldset class="grid island-1-2">
+       <legend class="unit pad-t-2 giga">Do you have other pets?</legend>
+       <div class="unit">
+         <input id="yes-first-aid" name="first-aid" type="radio">
+         <label for="yes-first-aid">Yes</label>
+         <input id="no-first-aid" name="no-first-aid" type="radio">
+         <label for="no-first-aid">No</label>
+       </div>
+       <div class="grid island-1-2">
+        <fieldset class="unit xs-1">
+          <legend class="pad-t-2 giga">If answered "Yes" to having other pets, please tells us a bit about them.</legend>
+          <textarea rows="6" id="yespet" name="yespet"></textarea>
+        </fieldset>
+      </div>
+        <div class="grid island-1-2">
+          <fieldset class="unit xs-1">
+            <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
+            <textarea rows="6" id="reason" name="reason"></textarea>
+           <hr>
+         </fieldset>
+       </div>
+     </fieldset>
+
+     <hr></hr>
+     <div class="text-center push">
+       <button class="btn text-center" type="submit">Apply</button>
+     </div>
+   </form>
+</section>
 
   <hr></hr>
 

@@ -22,7 +22,7 @@ html {
   left: 50%;
   transform: translate(-50%);
   color: white;
-  background-color: grey;
+  background-color: lightgrey;
   width: 70%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: purple;
+  color: #601893;
 }
 
 a {
@@ -65,8 +65,11 @@ hr {
   display: inline-block;
 }
 
-@media only screen and (min-width: 25em) {
+.about-content {
+  max-width: 30em;
+  margin: auto;
+}
 
-
-
+.rescues-content {
+  margin:auto;
 }

@@ -26,28 +26,28 @@
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="rescues.html">Rescues</a></li>
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Donate</a></li>
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Foster</a></li>
-          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Volunteer</a></li>
         </ul>
       </nav>
+    </div>
   </header>
 
   <div class="grid pad-b">
-    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+    <figure class="unit xs-1-4 s-1-4 m-1-4 l-1-4 relative push-0">
       <div class="embed embed-1by1">
         <img class="embed-item" src="images/feature-two.jpg" alt="">
       </div>
     </figure>
-    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+    <figure class="unit xs-1-4 s-1-4 m-1-4 l-1-4 relative push-0">
       <div class="embed embed-1by1">
         <img class="embed-item" src="images/feature-one.jpg" alt="">
       </div>
     </figure>
-    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+    <figure class="unit xs-1-4 s-1-4 m-1-4 l-1-4 relative push-0">
       <div class="embed embed-1by1">
         <img class="embed-item" src="images/feature-three.jpg" alt="">
       </div>
     </figure>
-    <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
+    <figure class="unit xs-1-4 s-1-4 m-1-4 l-1-4 relative push-0">
       <div class="embed embed-1by1">
         <img class="embed-item" src="images/feature-four.jpg" alt="">
       </div>
@@ -56,9 +56,9 @@
 
   <section>
     <form class="wrapper">
-    <fieldset class="pad-t pad-b-1-2">
-      <legend class="pad-t-2 giga bold gutter-1-2">Personal details</legend>
-      <div class="grid">
+    <fieldset class="pad-t">
+      <legend class="pad-t-2 giga bold gutter">Personal details</legend>
+      <div class="grid island-1-2">
         <div class="unit xs-1 s-1 m-1-2 pad-t-1-8 gutter-1-2 pad-b-1-2">
           <label for="name" class="kilo">First Name</label>
           <input id="name" name="name">
@@ -75,7 +75,7 @@
           <label for="email" class="kilo">Email Address<span class="opt italic"> (required)</span></label>
           <input id="email" type="email">
         </div>
-        <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+        <div class="unit xs-1 s-1 m-1-2 gutter-1-2 pad-b">
           <label for="tel" class="kilo">Phone number<span class="opt italic"> (optional)</span></label>
           <input id="tel" type="tel">
         </div>
@@ -84,7 +84,7 @@
           <input id="address" name="address">
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
-          <label for="city" class="kilo gutter-1-2">City</label>
+          <label for="city" class="kilo">City</label>
           <input id="city" name="city">
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
@@ -106,15 +106,15 @@
           </select>
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
-          <label for="postal" class="kilo gutter-1-2">Postal code</label>
+          <label for="postal" class="kilo">Postal code</label>
           <input id="postal" name="postal">
         </div>
       </div>
     </fieldset>
      <hr>
 
-     <fieldset class="grid island-1-2">
-       <legend class="unit pad-t-2 giga">Check which interests you</legend>
+     <fieldset class="grid island">
+       <legend class="unit giga">Check which interests you</legend>
        <div class="grid">
          <div class="unit m-1-2">
            <div class="kilo push-1-8 pad-t-1-4">
@@ -155,8 +155,8 @@
        </div>
      </fieldset>
      <hr>
-     <fieldset class="grid island-1-2">
-       <legend class="unit pad-t-2 giga">Do you smoke?</legend>
+     <fieldset class="grid island">
+       <legend class="unit pad-t giga">Do you smoke?</legend>
        <div class="unit">
          <input id="yes-license" name="license" type="radio">
          <label for="yes-license">Yes</label>
@@ -164,7 +164,7 @@
          <label for="no-license">No</label>
        </div>
      </fieldset>
-     <fieldset class="grid island-1-2">
+     <fieldset class="grid island">
        <legend class="unit pad-t-2 giga">Do you have a backyard?</legend>
        <div class="unit">
          <input id="yes-truck" name="truck" type="radio">
@@ -173,7 +173,7 @@
          <label for="no-truck">No</label>
        </div>
      </fieldset>
-     <fieldset class="grid island-1-2">
+     <fieldset class="grid island">
        <legend class="unit pad-t-2 giga">Do you have other pets?</legend>
        <div class="unit">
          <input id="yes-first-aid" name="first-aid" type="radio">
@@ -181,13 +181,14 @@
          <input id="no-first-aid" name="no-first-aid" type="radio">
          <label for="no-first-aid">No</label>
        </div>
-       <div class="grid island-1-2">
+       <div class="grid">
         <fieldset class="unit xs-1">
           <legend class="pad-t-2 giga">If answered "Yes" to having other pets, please tells us a bit about them.</legend>
           <textarea rows="6" id="yespet" name="yespet"></textarea>
         </fieldset>
       </div>
-        <div class="grid island-1-2">
+      <fieldset class="grid">
+        <div class="unit">
           <fieldset class="unit xs-1">
             <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
             <textarea rows="6" id="reason" name="reason"></textarea>
@@ -196,14 +197,13 @@
        </div>
      </fieldset>
 
-     <hr></hr>
      <div class="text-center push">
-       <button class="btn text-center" type="submit">Apply</button>
+       <button class="btn text-center btn-light" type="submit">Apply</button>
      </div>
    </form>
 </section>
 
-  <hr></hr>
+  <hr>
 
   <footer class="micro push-1-2 island-1-4">© CK Animal Rescue</footer>
 

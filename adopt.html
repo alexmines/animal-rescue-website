@@ -12,7 +12,7 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
-  <header>
+  <header role="banner">
     <div class="grid">
       <div class="unit gutter pad-t-1-4 logo xs-1-3 s-1-3 m-1-3 l-1-3">
         <div class="unit push">
@@ -20,7 +20,7 @@
           <h2 class="kilo push-none">Animal Rescue</h1>
         </div>
       </div>
-      <nav class="unit xs-2-3 s-2-3 m-2-3 l-2-3 hover nav-list">
+      <nav class="unit xs-2-3 s-2-3 m-2-3 l-2-3 hover nav-list" role="navigation">
         <ul class="mega list-group-inline push-1-2">
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="index.html">Home</a></li>
           <li class="current inline-block gutter-1-8 push-r-1-4"><a href="adopt.html">Adopt</a></li>
@@ -120,38 +120,38 @@
        <div class="grid">
          <div class="unit m-1-2">
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="shovels" name="experience" type="checkbox">
-             <label for="shovels">Small Dog</label>
+             <input id="small-dog" name="experience" type="checkbox">
+             <label for="small-dog">Small Dog</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="hand-held" name="experience" type="checkbox">
-             <label for="hand-held">Big Dog</label>
+             <input id="big-dog" name="experience" type="checkbox">
+             <label for="big-dog">Big Dog</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="write" name="experience" type="checkbox">
-             <label for="write">Old Dog</label>
+             <input id="old-dog" name="experience" type="checkbox">
+             <label for="old-dog">Old Dog</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="photography" name="experience" type="checkbox">
-             <label for="photography">Young Dog</label>
+             <input id="young-dog" name="experience" type="checkbox">
+             <label for="young-dog">Young Dog</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="trail" name="experience" type="checkbox">
-             <label for="trail">Old Cat</label>
+             <input id="old-cat" name="experience" type="checkbox">
+             <label for="old-cat">Old Cat</label>
            </div>
          </div>
          <div class="unit m-1-2">
            <div class="unit kilo push-1-8 pad-t-1-4">
-             <input id="bush" name="experience" type="checkbox">
-             <label for="bush">Young Cat</label>
+             <input id="young-cat" name="experience" type="checkbox">
+             <label for="young-cat">Young Cat</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="atv" name="experience" type="checkbox">
-             <label for="atv">Healthy Pet</label>
+             <input id="healthy" name="experience" type="checkbox">
+             <label for="healthy">Healthy Pet</label>
            </div>
            <div class="kilo push-1-8 pad-t-1-4">
-             <input id="plant-id" name="experience" type="checkbox">
-             <label for="plant-id">Medical Needs</label>
+             <input id="medical" name="experience" type="checkbox">
+             <label for="medical">Medical Needs</label>
            </div>
          </div>
        </div>
@@ -160,28 +160,28 @@
      <fieldset class="grid island">
        <legend class="unit pad-t giga">Do you smoke?</legend>
        <div class="unit">
-         <input id="yes-license" name="license" type="radio">
-         <label for="yes-license">Yes</label>
-         <input id="no-license" name="license" type="radio">
-         <label for="no-license">No</label>
+         <input id="yes-smoke" name="smoke" type="radio">
+         <label for="yes-smoke">Yes</label>
+         <input id="no-smoke" name="smoke" type="radio">
+         <label for="no-smoke">No</label>
        </div>
      </fieldset>
      <fieldset class="grid island">
        <legend class="unit pad-t-2 giga">Do you have a backyard?</legend>
        <div class="unit">
-         <input id="yes-truck" name="truck" type="radio">
-         <label for="yes-truck">Yes</label>
-         <input id="no-truck" name="truck" type="radio">
-         <label for="no-truck">No</label>
+         <input id="yes-back" name="back" type="radio">
+         <label for="yes-back">Yes</label>
+         <input id="no-back" name="back" type="radio">
+         <label for="no-back">No</label>
        </div>
      </fieldset>
      <fieldset class="grid island">
        <legend class="unit pad-t-2 giga">Do you have other pets?</legend>
        <div class="unit">
-         <input id="yes-first-aid" name="first-aid" type="radio">
-         <label for="yes-first-aid">Yes</label>
-         <input id="no-first-aid" name="no-first-aid" type="radio">
-         <label for="no-first-aid">No</label>
+         <input id="yes-first-aid" name="pets" type="radio">
+         <label for="yes-pets">Yes</label>
+         <input id="no-pets" name="no-pets" type="radio">
+         <label for="no-pets">No</label>
        </div>
      </fieldset>
        <div class="grid island">
@@ -208,7 +208,7 @@
 
   <hr>
 
-  <footer class="micro push-1-2 island-1-4">© CK Animal Rescue</footer>
+  <footer class="micro push-1-2 island-1-4" role="contentinfo">© CK Animal Rescue</footer>
 
 </body>
 

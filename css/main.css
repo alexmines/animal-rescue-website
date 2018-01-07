@@ -1,5 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner-home {
@@ -10,11 +10,6 @@ html {
   max-height: 24em;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 .banner-content {
   position: absolute;
   width: 60%;
@@ -22,7 +17,7 @@ html {
   left: 50%;
   transform: translate(-50%);
   color: white;
-  background-color: lightgrey;
+  background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
@@ -38,10 +33,9 @@ nav {
 
 ul {
   position: absolute;
-  top:35%;
+  top: 35%;
   right: 10px;
 }
-
 
 nav ul li a {
   color: black;
@@ -67,9 +61,8 @@ hr {
 }
 
 .rescues-content {
-  margin:auto;
+  margin: auto;
 }
-
 
 fieldset {
   border: none;

@@ -2,7 +2,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-.banner {
+.banner-home {
   background-size: cover;
   background-position: center bottom;
   position: relative;
@@ -51,10 +51,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #601893;
-}
-
-a {
-  display: inline-block;
 }
 
 hr {

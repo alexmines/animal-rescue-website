@@ -10,6 +10,8 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon-196.png">
+
 </head>
 <body>
   <ul class="skip-links">
@@ -30,8 +32,8 @@
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="index.html">Home</a></li>
           <li class="current inline-block gutter-1-8 push-r-1-4"><a href="adopt.html">Adopt</a></li>
           <li class="inline-block gutter-1-8 push-r-1-4"><a href="rescues.html">Rescues</a></li>
-          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Donate</a></li>
-          <li class="inline-block gutter-1-8 push-r-1-4"><a href="">Foster</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="#donate">Donate</a></li>
+          <li class="inline-block gutter-1-8 push-r-1-4"><a href="foster">Foster</a></li>
         </ul>
       </nav>
     </div>
@@ -60,7 +62,7 @@
     </figure>
   </div>
 
-  <section>
+  <main role="main">
     <form class="wrapper">
       <h1 class="pad-t-2 zetta bold gutter text-center">If you wish to adopt, please fill out the form below</h1>
       <fieldset class="pad-t">
@@ -119,8 +121,7 @@
         </div>
       </fieldset>
       <hr>
-
-      <main>
+      <section>
         <fieldset class="grid island">
           <legend class="unit giga">Check which interests you</legend>
           <div class="grid">
@@ -193,25 +194,25 @@
         <div class="grid island">
           <fieldset class="unit xs-1">
             <legend class="pad-t-2 giga">If answered "Yes" to having other pets, please tells us a bit about them.</legend>
-            <textarea rows="6" id="yespet" name="yespet"></textarea>
+            <textarea rows="6" id="pet-yes" name="pet-yes"></textarea>
           </fieldset>
         </div>
         <fieldset class="grid island">
           <div class="unit">
             <fieldset class="unit xs-1">
               <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
-              <textarea rows="6" id="reason" name="reason"></textarea>
+              <textarea rows="6" id="comment" name="comment"></textarea>
               <hr>
             </fieldset>
           </div>
         </fieldset>
+      </section>
 
-        <div class="text-center push">
-          <button class="btn text-center btn-light" type="submit">Apply</button>
-        </div>
-      </form>
-    </main>
-  </section>
+      <div class="text-center push">
+        <button class="btn text-center btn-light" type="submit">Apply</button>
+      </div>
+    </form>
+  </main>
 
   <hr>
 

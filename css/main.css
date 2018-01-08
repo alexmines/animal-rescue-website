@@ -67,3 +67,9 @@ hr {
 fieldset {
   border: none;
 }
+
+.btn-ghost {
+  background-color: black;
+  color: white;
+  border: none;
+}

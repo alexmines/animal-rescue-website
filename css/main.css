@@ -2,6 +2,10 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+.skip-links {
+  display: none;
+}
+
 .banner-home {
   background-size: cover;
   background-position: center bottom;
@@ -12,15 +16,14 @@ html {
 
 .banner-content {
   position: absolute;
-  width: 60%;
+  width: 80%;
   bottom: 40%;
   left: 50%;
   transform: translate(-50%);
   color: white;
   background-color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 header {

@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="favicon-196.png">
-
 </head>
+
 <body>
-  <ul class="skip-links" tabindex="0">
+  <ul class="skip-links" tabindex="0" id="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
@@ -39,7 +39,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <a href="#empty" aria-label="empty"></a>
     <div class="grid">
       <figure class="unit xs-1-4 s-1-4 m-1-4 l-1-4 relative push-0">
@@ -65,7 +65,7 @@
     </div>
   </main>
 
-  <form class="wrapper" method="POST" action="https://formspree.io/mine0051@algonquincollege.com">
+  <form class="wrapper" method="POST" action="https://formspree.io/mine0051@algonquincollege.com" role="form" id="form">
     <h1 class="pad-t-2 zetta bold gutter text-center">If you wish to adopt, please fill out the form below</h1>
     <fieldset class="pad-t">
       <legend class="pad-t-2 giga bold gutter">Personal details</legend>
@@ -123,7 +123,7 @@
       </div>
     </fieldset>
     <hr>
-    <section>
+    <section id="check-interests" tabindex="0">
       <fieldset class="island">
         <legend class="giga">Check which interests you</legend>
         <div class="grid">
@@ -169,7 +169,7 @@
 
     <hr>
 
-    <article>
+    <article id="do-you">
       <fieldset class="grid island">
         <legend class="unit pad-t giga">Do you smoke?</legend>
         <div class="unit">
@@ -200,25 +200,12 @@
         </div>
       </fieldset>
 
-      <fieldset class="grid island">
-        <legend class="giga unit">If answered "Yes" to having other pets, please tells us a bit about them.</legend>
-
+      <fieldset class="grid island" id="comments">
+        <legend class="giga unit" aria-label="Insert comments here">More info</legend>
         <div class="unit">
           <div class="unit xs-1">
-            <textarea rows="6" id="pet-yes" name="pet-yes"></textarea>
-            <label for="pet-yes"></label>
-            <hr>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="grid island">
-        <legend class="giga unit">Please let us know any comments or questions you may have.</legend>
-
-        <div class="unit">
-          <div class="unit xs-1">
-            <textarea rows="6" id="comment" name="comment"></textarea>
-            <label for="comment"></label>
+            <label for="comment">Leave a comment</label>
+            <textarea id="comment" name="comment"></textarea>
             <hr>
           </div>
         </div>
@@ -228,6 +215,7 @@
     <div class="text-center push">
       <button class="btn text-center btn-light" type="submit">Apply</button>
     </div>
+
   </form>
 
   <hr>

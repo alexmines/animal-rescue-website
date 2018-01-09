@@ -12,11 +12,12 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="favicon-196.png">
 </head>
+
 <body>
 
-  <ul class="skip-links" tabindex="0">
-    <li><a href="#main">Jump to main content</a></li>
+  <ul class="skip-links">
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
   </ul>
 
   <header role="banner">
@@ -40,6 +41,7 @@
     </div>
   </header>
 
+  <main role="main" id="main" tabindex="0">
   <div class="banner-home">
     <div class="embed embed-16by9 push-2">
       <img class="img-flex embed-item" src="images/banner.jpg" alt="…">
@@ -49,7 +51,7 @@
     </div>
   </div>
 
-  <section class="text-center pad-t pad-b-2">
+  <section class="text-center pad-t pad-b-2" id="buttons">
     <div class="btn-home island-1-2">
       <a href="#donate" class="btn gutter tera btn-light">Donate</a>
     </div>
@@ -63,14 +65,14 @@
 
   <hr>
 
-  <main role="main" id="main" tabindex="0">
+
     <div class="pad-b gutter">
       <h2 class="text-center">About Us</h2>
       <p class="about-content pad-b">Chatham Kent Animal Rescue, (aka CK Animal Rescue), was formed in October 2010 and our office is located in southwestern Ontario, Canada. We are a registered non profit RESCUE, 100% volunteer based organization with dedicated animal lovers who volunteer their time, love, commitment and open their homes to care for our rescued dogs (& cats). Our volunteers and foster families are located within southwestern Ontario (Sarnia, London, Chatham Kent, Blenheim, Leamington, Ridgetown, Windsor and surrounding areas).</p>
     </div>
   </main>
 
-  <div class="grid pad-b">
+  <aside role="complementary" class="grid pad-b">
     <figure class="unit xs-1-2 s-1-4 m-1-4 l-1-4 relative push-0">
       <div class="embed embed-1by1">
         <img class="embed-item" src="images/feature-two.jpg" alt="">
@@ -91,7 +93,7 @@
         <img class="embed-item" src="images/feature-four.jpg" alt="">
       </div>
     </figure>
-  </div>
+  </aside>
 
   <hr>
 
